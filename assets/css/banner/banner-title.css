@@ -1,0 +1,49 @@
+.banner__title {
+    position: absolute;
+    width: 348.69px;
+    height: 43.05px;
+    left: 103.98px;
+    top: 177px;
+
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32.5627px;
+    line-height: 43px;
+
+    color: #BE9667;
+}
+
+.banner__title:nth-child(3) {
+    position: absolute;
+    width: 404.18px;
+    height: 119.58px;
+    left: 98px;
+    top: 198.52px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90.0346px;
+    line-height: 120px;
+
+    text-transform: uppercase;
+
+    color: rgba(2, 75, 104, 0.68);
+}
+
+.banner__title:nth-child(4) {
+    position: absolute;
+    width: 289px;
+    height: 43px;
+    left: 214px;
+    top: 303px;
+    
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32.5627px;
+    line-height: 43px;
+
+    color: #BE9667;
+}

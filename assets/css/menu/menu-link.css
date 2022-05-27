@@ -1,0 +1,11 @@
+.menu__link {
+    font-family: 'Lato', sans-serif;
+    color: #949494;
+    margin-right: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: #1C86A4;
+}
