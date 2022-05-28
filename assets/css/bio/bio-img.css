@@ -1,5 +1,5 @@
 .bio__img {
-    position: absolute;
+    position: relative;
     width: 370px;
     height: 439px;
     left: 98px;
@@ -7,10 +7,10 @@
 }
 
 .bio__backticks {
-    position: absolute;
+    position: relative;
     z-index: -1;
     width: 156px;
     height: 123px;
-    top: 290px;
+    top: 10px;
     left: 1168px;
 }

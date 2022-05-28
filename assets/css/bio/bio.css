@@ -1,5 +1,7 @@
 .bio {
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 548px;
 }
