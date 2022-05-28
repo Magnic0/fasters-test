@@ -3,5 +3,14 @@
     width: 370px;
     height: 439px;
     left: 98px;
-    top: 682px;
+    top: 52px;
+}
+
+.bio__backticks {
+    position: absolute;
+    z-index: -1;
+    width: 156px;
+    height: 123px;
+    top: 290px;
+    left: 1168px;
 }

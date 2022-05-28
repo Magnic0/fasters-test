@@ -1,5 +1,5 @@
 .bio__button {
-    position: relative;
+    position: absolute;
     top: 441px;
     right: 498px;
     left: 568px;
@@ -23,6 +23,5 @@
 }
 
 .bio__button:hover {
-    background-color: transparent;
-    border: 1px solid #BE9667;
+    background-color: #013145;
 }

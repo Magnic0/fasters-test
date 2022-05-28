@@ -1,0 +1,21 @@
+.bio__title {
+    position: absolute;
+    top: 52px;
+    right: 550px;
+    left: 569px;
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #014561;
+    cursor: default;
+}
+
+.bio__title a {
+    cursor: default;
+    text-decoration: none;
+    border-bottom: 1px solid #70B0C4;
+    color: #014561;
+}

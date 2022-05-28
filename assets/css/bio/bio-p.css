@@ -1,0 +1,29 @@
+.bio__p {
+    position: relative;
+    width: 700px;
+    height: 135px;
+    top: 130px;
+    left: 568px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 141.3%;
+    color: #333333;
+}
+
+.bio__p.italic {
+    position: absolute;
+    width: 678px;
+    height: 102px;
+    left: 568px;
+    top: 290px;
+
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 141.3%;
+    color: #1C86A4;
+}
