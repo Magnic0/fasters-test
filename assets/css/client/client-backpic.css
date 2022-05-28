@@ -1,0 +1,21 @@
+.client__backpic {
+    position: absolute;
+    width: 313px;
+    height: 360px;
+    left: 1053px;
+    top: 0px;
+    
+    background: url('../../img/client/nelson-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.client__frontpic {
+    position: absolute;
+    width: 313px;
+    height: 360px;
+    left: 1053px;
+    top: 0px;
+    background-color: rgba(2, 75, 104, 0.81);
+}
