@@ -2,29 +2,17 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 90%;
-    padding-top: 40px;
-    max-width: 80%;
+    width: 1366px;
+    padding-top: 20px;
     margin: auto;
+    padding-left: 50px;
 }
 
 .bio div:nth-child(2) {
-    padding-left: 90px;
+    padding-left: 80px;
     background-image: url('../../img/bio/backticks.png');
     background-repeat: no-repeat;
     background-size: 150px;
     background-position-x: 690px;
     background-position-y: 210px;
-}
-
-@media screen and (min-width: 2266px)  {
-    .bio {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 2266px)  {
-    .bio {
-        width: 45%;
-    }
 }

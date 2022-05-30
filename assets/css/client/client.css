@@ -1,0 +1,16 @@
+.client {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1366px;
+    height: 360px;
+    margin-top: 15px;
+    margin: auto;
+
+    background-image: url('../../img/client/Tailor\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 148px;
+    background-color: #EFF7F9;
+}

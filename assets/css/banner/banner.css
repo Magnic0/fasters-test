@@ -7,3 +7,8 @@
     width: 100%;
     height: 630px;
 }
+
+.banner div {
+    width: 1366px;
+    margin: auto;
+}

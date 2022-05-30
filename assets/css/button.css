@@ -25,5 +25,27 @@
 }
 
 .bt-gold {
+    width: 330px;
+    height: 55px;
 
+    background: #BE9667;
+    border: none;
+    border-radius: 2px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    
+    text-align: center;
+    
+    color: #E0E0E0;
+
+    transition: 1s;
+}
+
+.bt-gold:hover {
+    background: #727272;
+    cursor: pointer;
 }

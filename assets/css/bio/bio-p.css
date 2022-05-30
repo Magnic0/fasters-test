@@ -1,12 +1,11 @@
 .bio__p {
     position: relative;
-    width: 95%;
-    margin-bottom: 0px;
+    width: 80%;
 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.188rem;
     line-height: 1.5rem;
     color: #333333;
 }

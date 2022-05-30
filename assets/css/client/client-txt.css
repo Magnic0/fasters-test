@@ -1,0 +1,32 @@
+.client__txt {
+    position: relative;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    margin-left: 5%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    text-align: center;
+
+    color: #828282;
+}
+
+.client__txt h2 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.75rem;
+    
+    color: #014561;
+}
+
+.client__txt h3 {
+    font-size: 1.25rem;
+    
+    color: #BE9667;
+}
