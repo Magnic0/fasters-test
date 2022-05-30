@@ -17,7 +17,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 
         <!--Stylesheets-->
         <link rel="stylesheet" href="./assets/css/reset.css">
@@ -42,6 +45,12 @@
         <link rel="stylesheet" href="./assets/css/client/client-img.css">
         <link rel="stylesheet" href="./assets/css/stamps.css">
         <link rel="stylesheet" href="./assets/css/promo.css">
+        <link rel="stylesheet" href="./assets/css/budget/budget.css">
+        <link rel="stylesheet" href="./assets/css/budget/budget-container.css">
+        <link rel="stylesheet" href="./assets/css/budget/budget-img.css">
+        <link rel="stylesheet" href="./assets/css/budget/budget-text.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/form.css">
     </head>
 
     <body>
@@ -141,54 +150,58 @@
         </section>
 
         <section class="budget">
-            <div>
-                <div>
-                    <img src="./assets/img/budget/camisaria.png" alt="homem de camisa branca ajeitando gravata">
+            <div class="budget__container">
+                <div class="budget__img">
+                    <div></div>
                 </div>
 
-                <div>
+                <div class="budget__text">
                     <h2>Camisaria</h2>
                     <h3>Confeccionadas artesanalmente</h3>
-                    <ul>
-                        <li>100% Algodão</li>
-                        <li>Monograma</li>
-                        <li>Slim</li>
-                    </ul>
-                    <ul>
-                        <li>Nacionais e Importadas</li>
-                        <li>Tradicionais e Esportivas</li>
-                        <li>Casamentos</li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>100% Algodão</li>
+                            <li>Monograma</li>
+                            <li>Slim</li>
+                        </ul>
+                        <ul>
+                            <li>Nacionais e Importadas</li>
+                            <li>Tradicionais e Esportivas</li>
+                            <li>Casamentos</li>
+                        </ul>
+                    </div>
                     <button class="bt-blue">Quero um orçamento</button>
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="budget__container">
+                <div class="budget__text">
                     <h2>Alfaiataria</h2>
                     <h3>Totalmente feito a mão sob medida</h3>
-                    <ul>
-                        <li>Fio Super 120 e 130</li>
-                        <li>Lã fria Australiana</li>
-                        <li>Botões Importados</li>
-                    </ul>
-                    <ul>
-                        <li>Ternos e Calças</li>
-                        <li>Paletós e Smokings</li>
-                        <li>Sociais e Esportivos</li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>Fio Super 120 e 130</li>
+                            <li>Lã fria Australiana</li>
+                            <li>Botões Importados</li>
+                        </ul>
+                        <ul>
+                            <li>Ternos e Calças</li>
+                            <li>Paletós e Smokings</li>
+                            <li>Sociais e Esportivos</li>
+                        </ul>
+                    </div>
                     <button class="bt-blue">Quero um orçamento</button>
                 </div>
 
-                <div>
-                    <img src="./assets/img/budget/alfaiataria.png" alt="ponta de manga de um terno cinza grafite">
+                <div class="budget__img">
+                    <div></div>
                 </div>
             </div>
         </section>
 
         <section class="depos">
             <h2>Depoimentos</h2>
-            <div>
+            <div class="slider">
                 <div class="depo__pic"></div>
                 <p>
                     “Sou cliente do Renee há uns 12 anos. Nosso primeiro contato foi por intermédio de meu pai, que já tem uma história de décadas com o querido Renee.
@@ -197,7 +210,8 @@
                 <h3>William H. M. Garey</h3>
                 <p>Advogado | Nelson Garey Advogados Associados</p>
             </div>
-            <div>
+            
+            <div class="slider">
                 <div class="depo__pic"></div>
                 <p>
                     “Seu corte tanto de camisas, bem como de ternos são impecáveis, muitos dos meus amigos tem elogiado a vestimenta.
@@ -206,7 +220,8 @@
                 <h3>Domingos Orestes Chiomento</h3>
                 <p>DOC Contabilidade Empresarial</p>
             </div>
-            <div>
+
+            <div class="slider">
                 <div class="depo__pic"></div>
                 <p>
                     “Tenho a honra de afirmar que enquanto nossas vidas perdurarem o meu conceito é sempre melhor em relação ao Renee Trajar, sua pessoa, ao profissional competente e idôneo, sempre pontual, atencioso e preocupado em atender da melhor maneira os anseios de seus clientes, incluindo este signatário.”
@@ -214,7 +229,8 @@
                 <h3>José Mauro Marques</h3>
                 <p>Advogado</p>
             </div>
-            <div>
+
+            <div class="slider">
                 <div class="depo__pic"></div>
                 <p>
                     “Conheço o excelente e qualificado trabalho do Renee Trajar e sua equipe há décadas. Para camisas e ternos, o Renee é imbatível, sempre com preços justos, produtos de excelente qualidade e especialmente tudo é feito com muito cuidado e qualidade. Cumpre os prazos com atendimento de alto nível. O Renee trabalha com perfeição nos detalhes.”
@@ -227,14 +243,14 @@
         <section class="form">
             <div>
                 <div>
-                    <h2>Telefones</h2>
-                    <h3>+55 (11) 3088-0757</h3>
+                    <h3>Telefones</h3>
+                    <p>+55 (11) 3088-0757</p>
         
-                    <h2>E-mail</h2>
-                    <h3>renee@reneetrajar.com.br</h3>
+                    <h3>E-mail</h3>
+                    <p>renee@reneetrajar.com.br</p>
                 </div>
                 <div>
-                    <h2>Atendimento personalizado</h2>
+                    <h3>Atendimento personalizado</h3>
                     <button class="bt-transparent">Clique Aqui!</button>
                 </div>
             </div>
@@ -244,16 +260,16 @@
                     <h2>Contato</h2>
                     <ul>
                         <li>
-                            <label for="name">Nome</label>
-                            <input type="text" name="user_name" id="name">
+                            <label for="name">Nome<br></label>
+                            <input type="text" name="user_name" id="name" placeholder="Nome">
                         </li>
                         <li>
-                            <label for="email">E-mail</label>
-                            <input type="text" name="user_email" id="email">
+                            <label for="email">E-mail<br></label>
+                            <input type="text" name="user_email" id="email" placeholder="E-mail">
                         </li>
                         <li>
-                            <label for="msg">Mensagem</label>
-                            <textarea name="user_message" id="msg"></textarea>
+                            <label for="msg">Mensagem<br></label>
+                            <textarea name="user_message" id="msg" placeholder="Mensagem"></textarea>
                         </li>
                     </ul>
                 </form>
@@ -262,12 +278,12 @@
         </section>
 
         <footer>
-            <div>
+            <div class="footer__left">
                 <img src="./assets/img/footer/footer-logo.png" alt="Logo da marca Renee Trajar, abaixo as escrituras: Camisaria/Alfaiataria">
                 <p>CNPJ:04.487.685/0001-01</p>
             </div>
 
-            <div>
+            <div class="footer__right">
                 <p>Copyright: 2021 © Renee Trajar - Todos os direitos reservados.</p>
             </div>
         </footer>

@@ -1,0 +1,7 @@
+.budget__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    padding: 0px 100px 100px 100px;
+}

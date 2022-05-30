@@ -1,0 +1,31 @@
+.budget__img {
+    width: 540px;
+    height: 488px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../img/budget/camisaria.png');
+}
+
+.budget__img:last-child {
+    background-image: url('../../img/budget/alfaiataria.png');
+}
+
+.budget__img div {
+    position: relative;
+
+    width: 104.5%;
+    height: 464px;
+
+    top: 12px;
+    left: -12px;
+
+    box-sizing: border-box;
+    border: 1px solid #1C86A4;
+}
+
+.budget__img:hover {
+    background-size: 110%;
+    box-shadow: 100% inset black;
+}

@@ -1,0 +1,102 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1366px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.form div {
+    margin: auto;
+}
+
+.form h2 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+    
+    display: flex;
+    text-align: center;
+    
+    color: #1C86A4;
+}
+
+.form h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    
+    text-transform: uppercase;
+    
+    color: #1C86A4;
+}
+
+.form p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+    color: #828282;    
+}
+
+.form li {
+    margin-top: 2px;
+
+    list-style: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    
+    /* color: #1C86A4; */
+
+    color: transparent;
+}
+
+.form li:focus::input {
+    color: transparent;
+}
+
+.form input {
+    margin-top: 5px;
+    width: 600px;
+    height: 42px;
+
+    padding: 0px 7px 0px 7px;
+
+    opacity: 60%;
+
+    border: 1px solid #1C86A4;
+    border-radius: 3px;
+}
+
+.form input:focus::placeholder {
+    color: transparent;
+}
+
+.form textarea {
+    width: 600px;
+    height: 77px;
+
+    padding: 7px 7px 7px 7px;
+
+    resize: none;
+    
+    border: 1px solid #1C86A4;
+    border-radius: 3px;
+    
+    opacity: 60%;
+}
+
+.form textarea:focus::placeholder {
+    color: transparent;
+}

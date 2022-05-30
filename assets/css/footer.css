@@ -1,0 +1,41 @@
+footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 174px;
+
+    border-top: 1px solid #BE9667;
+}
+
+footer img {
+    width: 139px;
+    height: 69px;
+}
+
+.footer__left {
+    margin: 10%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    
+    color: #BDBDBD;    
+}
+
+.footer__right {
+    padding-top: 60px;
+    margin: 10%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.874rem;
+    line-height: 1.313rem;
+    text-align: center;
+    
+    color: #4F4F4F;
+}
