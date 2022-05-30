@@ -1,0 +1,56 @@
+.depos {
+    position: relative;
+    width: 1366px;
+    height: 608px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    background-image: url('../../img/depos/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 1500px #013145f3;
+}
+
+.depos h2 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    color: #F2F2F2;
+}
+
+.slider-bt-l,
+.slider-bt-r {
+    position: absolute;
+    width: 17px;
+    height: 51px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-bt-l {
+    left: 100px;
+    top: 310px;
+    background-image: url('../../img/depos/bt-l.png');
+}
+
+.slider-bt-r {
+    left: 1250px;
+    top: 310px;
+    background-image: url('../../img/depos/bt-r.png');
+}
+
+.slider-bt-l:hover,
+.slider-bt-r:hover {
+    cursor: pointer;
+}

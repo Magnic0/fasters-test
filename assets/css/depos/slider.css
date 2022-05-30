@@ -1,0 +1,40 @@
+.slider {
+    display: none;
+    margin: 25px 100px 50px 100px;
+}
+
+.slider:nth-child(4) {
+    display: block;
+}
+
+.slider p {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.625rem;
+    line-height: 1.938rem;
+    text-align: center;
+    margin: 50px 100px 40px 100px;
+    
+    color: #C4C4C4;
+}
+
+.slider h3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    
+    color: #BE9667;    
+}
+
+.slider h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+    
+    color: #949494;    
+}
